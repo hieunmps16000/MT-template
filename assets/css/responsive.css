@@ -1,0 +1,191 @@
+/* =====[ CSS Responsive ]===== */	
+.header1 .main2 {
+    flex-direction: column;
+}
+
+.header2 {
+    padding: 10px;
+}
+
+.header2 .main2 {
+    column-gap: 12px;
+}
+
+.header2_1 a:has(>img) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2_1 img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.extra1 .menu {
+    --cols: 2;
+}
+
+.extra1 .menu img {
+    height: auto;
+}
+
+.cart_dropdown_trong i::before,
+.ja-workshome:has(form .inputbox) .workshome-title::before {
+    display: block;
+    filter: none;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 80%;
+    height: 80%;
+}
+
+/* =====[ CSS Contact Page ]===== */
+.lienhe .table-contact tr {
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+table.table-contact .map {
+    padding-top: 56.25%;
+}
+
+/* =====[ CSS Module Slideshow ]===== */
+.prev_but i:before, 
+.next_but i:before, 
+.top_but i:before, 
+.bot_but i:before {
+    display: none;
+}
+
+/* =====[ CSS Module Footer ]===== */
+.footer2 .main2 {
+    display: block;
+}
+
+#ja-chantrang .footer2 .main2 > div {
+    width: 100%;
+}
+
+#ja-chantrang .footer2 .main2 > div ~ div {
+    margin-top: 12px;
+}
+
+/* =====[ CSS Module Blog Mobile ]===== */
+.itemRow {
+    --cols: 1;
+}
+
+.trangdmbv .catItemView {
+    display: block;
+}
+
+.trangdmbv .catItemImageBlock {
+    width: 100%;
+}
+
+/* =====[ CSS Module Product Mobile ]===== */
+.browse-view .row {
+    --cols: 2;
+    display: grid;
+    gap: 12px;
+}
+
+.browse-view .blocksp,
+.catItemImageBlock {
+    width: 100%;
+}
+
+.browse-view .spacer {
+    padding: 0;
+}
+
+/* =====[ CSS Module Menu Mobile ]===== */
+.header2 .main2>div.mobile_menu,
+.mobile_menu >div.mobile_0 {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_menu .tieude {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.mobile_menu i {
+    padding-right: 0;
+}
+
+.mobile_menu .noidung {
+    background: var(--primary-color);
+}
+
+.mobile_menu .noidung li a, 
+.mobile_menu .noidung li span {
+    color: #fff;
+}
+
+.mobile_menu .noidung >ul>li>a:before {
+    display: none;
+}
+
+.mobile_menu .noidung ul>.deeper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile_menu .noidung ul>.deeper>a {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.mobile_menu .noidung ul>.deeper>span {
+    width: 20%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_menu .noidung ul>.deeper>ul {
+    display: none;
+    width: 100%;
+}
+
+/* =====[ CSS Module Search ]===== */
+.ja-workshome:has(form .inputbox) {
+    position: relative;
+}
+
+.ja-workshome:has(.inputbox) .workshome-title {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ja-workshome:has(form .inputbox) .workshome-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    display: none;
+}
+
+.header2_2 .module_search {
+    width: 260px;
+}
+
+.header2_2 .buttontim, .k2SearchBlock .button {
+    width: 42px;
+}
