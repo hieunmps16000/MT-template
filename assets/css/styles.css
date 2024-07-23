@@ -158,9 +158,32 @@ iframe {
     font-size: 1.6rem;
 }
 
-.popup_cart_total_thanhtoan .checkout-button-top
-
 /* =====[ CSS Module Search ]===== */
+.ja-workshome:has(.inputbox) .workshome-title span {
+    display: none;
+}
+
+.ja-workshome:has(form .inputbox) {
+    position: relative;
+}
+
+.ja-workshome:has(.inputbox) .workshome-title {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ja-workshome:has(form .inputbox) .workshome-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    display: none;
+}
+
 .k2SearchBlock,
 .header2_2 .search,
 .search {
@@ -219,7 +242,8 @@ iframe {
 }
 
 .header2_2 .buttontim i::before,
-.k2SearchBlock .button i::before {
+.k2SearchBlock .button i::before,
+.ja-workshome:has(form .inputbox) .workshome-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -228,6 +252,16 @@ iframe {
     height: 100%;
     background: url(../../../images/web/icons/search.png) top center / contain no-repeat;
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2691%) hue-rotate(212deg) brightness(112%) contrast(107%);
+}
+
+.ja-workshome:has(form .inputbox) .workshome-title::before {
+    display: block;
+    filter: none;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 80%;
+    height: 80%;
 }
 
 .sp-vmsearch-categories,
@@ -564,6 +598,14 @@ table.table td {
 
 .owl-carousel .owl-nav button:hover {
     opacity: 0.5;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
 }
 
 /* =====[ CSS Button To Top Page ]===== */

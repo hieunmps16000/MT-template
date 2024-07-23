@@ -172,6 +172,7 @@ table.table-contact .map {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .ja-workshome:has(form .inputbox) .workshome-content {
