@@ -1195,91 +1195,6 @@ table.table-contact .map {
     width: 100%;
 }
 
-/* =====[ CSS Main Content ]===== */
-.header1 {
-    background: #fff;
-    padding: 8px 0;
-    font-size: 1.4rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.header1 .main2,
-.header2 .main2,
-.footer2 .main2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header1 .workshome-title > * {
-    color: var(--text-color);
-    font-weight: 400;
-}
-
-.header1_1 .ja-workshome,
-.header1 .menu,
-.header1_1 .menu a,
-.footer2_3 .menu,
-.footer2_3 .menu a {
-    display: flex;
-    align-items: center;
-    column-gap: 24px;  
-}
-
-.header1_1 .ja-workshome,
-.header1_1 .menu a,
-.footer2_3 .menu a {
-    column-gap: 8px;
-}
-
-.header1_1 .menu li {
-    position: relative;
-}
-
-.header1_1 .menu li ~ li::before {
-    position: absolute;
-    top: 50%;
-    left: -12px;
-    translate: 0 -50%;
-    content: "";
-    display: inline-block;
-    width: 1px;
-    height: 14px;
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.header1 .menu img,
-.footer2_3 .menu img {
-    display: block;
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-}
-
-.header1 .image-title,
-.footer2_3 .image-title {
-    display: none;
-}
-
-.header1_2 .menu,
-.footer2_3 .menu {
-    column-gap: 0;
-}
-
-.header1_2 .menu a,
-#ja-chantrang .footer2_3 .menu a {
-    display: block;
-    padding: 8px;
-}
-
-.header2 {
-    padding: 30px 0;
-}
-
-.header2 .main2 {
-    column-gap: 60px;
-}
-
 #ja-extra .workshome-content {
     overflow: unset;
     margin-top: 40px;
@@ -1289,37 +1204,8 @@ table.table-contact .map {
     display: none;
 }
 
+/* =====[ CSS Header ]===== */
+
 /* =====[ CSS Extra ]===== */
 
 /* =====[ CSS Footer ]===== */
-#ja-chantrang {
-    margin-top: 0;
-}
-
-.footer2 .main2 {
-    align-items: flex-start;
-    column-gap: 40px;
-}
-
-.footer2 .main2 > div {
-    width: calc(100% / 3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer2 .main2 > div.footer2_1 {
-    width: 40%;
-}
-
-.footer2_3 li ~ li {
-    margin-left: 10px;
-}
-
-.footer2_3 a {
-    background: #fff;
-}
-
-.footer2_3 a:hover {
-    opacity: 0.8;
-}
