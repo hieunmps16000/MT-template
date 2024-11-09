@@ -1,0 +1,12 @@
+.tb {
+    overflow-x: scroll;
+}
+
+.tb table {
+    height: auto!important;
+}
+
+.tb table td {
+    border: 1px solid #eee;
+    padding: 5px;
+}

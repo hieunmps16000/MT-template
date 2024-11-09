@@ -1,0 +1,38 @@
+.about-section .itemRow {
+    display: block;
+}
+
+.about-section .catItemView {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about-section .catItemImageBlock {
+    padding-top: unset;
+    border-radius: 10px;
+}
+
+.about-section .catItemImageBlock img {
+    position: unset;
+    object-fit: contain;
+    border-radius: 10px;
+    height: auto;
+}
+
+.about-section .catItemThongTin {
+    padding: 0 40px 0 0;
+}
+
+.about-section .catItemTitle {
+    margin-bottom: 20px;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.about-section .catItemExtraFields {
+    font-size: 120%;
+}
+
+.about-section .catItemExtraFieldsValue {
+    display: block;
+}
