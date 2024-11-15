@@ -1,0 +1,29 @@
+#ja-extra .product-menu .ja-workshome:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+#ja-extra .product-menu .ja-workshome:first-child .workshome-title > * {
+    margin-bottom: 0;
+}
+
+.product-menu .ja-workshome:first-child .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.product-menu .ja-workshome:first-child li a {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #ffd700;
+    color: #000;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.product-menu .ja-workshome:first-child li a:hover {
+    opacity: 0.9;
+}

@@ -14,7 +14,7 @@
 .module_search {
     width: 100%;
     display: flex;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #f7941d;
 }
 
 .k2SearchBlockForm select,
@@ -55,7 +55,7 @@
 
 /* #Menungang */
 #ja-menungang {
-    background: #a80c0c;
+    background: #f7941d;
     position: sticky;
     top: 0;
     left: 0;
@@ -134,7 +134,7 @@
 }
 
 #ja-menungang ul ul li:hover > a {
-    background: var(--primary-color);
+    background: #f7941d;
     color: #fff;
 }
 
@@ -149,15 +149,9 @@
 }
 
 /* #Heading */
-#ja-extra .workshome-title {
-    margin-bottom: 30px;
-    border-bottom: 2px solid #ccc;
-}
-
 #ja-extra .workshome-title > *,
 #ja-noidunggiua .workshome-title > * {
-    margin: 0;
-    padding: 8px 16px 8px 0;
+    margin-bottom: 20px;
     display: inline-block;
     color: #111;
     background: transparent;
@@ -174,19 +168,19 @@
     font-size: 120%;
     border-radius: 5px 5px 0 0;
     color: #fff;
-    background: var(--primary-color);
+    background: #f7941d;
     text-align: center;
 }
 
-#ja-extra .workshome-title > *::after {
+/* #ja-extra .workshome-title > *::after {
     content: "";
     position: absolute;
     bottom: -2px;
     left: 0;
     width: 100%;
     height: 2px;
-    background: var(--primary-color);
-}
+    background: #f7941d;
+} */
 
 /* #Breadcrumbs */
 .dinhhuong1 {
@@ -347,13 +341,31 @@
     gap: 12px;
 }
 
+.catItemReadMore a {
+    display: inline-block;
+    padding: 8px 16px;
+    float: none;
+    text-align: left;
+    border-radius: 4px;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.catItemReadMore a:hover {
+    opacity: 0.9;
+}
+
+.catItemReadMore i {
+    display: none;
+}
+
 .Pagination li > * {
     display: block;
     padding: 6px 20px;
     border-radius: 5px;
     cursor: pointer;
     color: #111;
-    background: var(--primary-color);
+    background: #f7941d;
 }
 
 .MTTable_Menu {
@@ -499,7 +511,7 @@
     height: 42px;
     text-align: center;
     border: none;
-    background: var(--primary-color);
+    background: #f7941d;
     color: #fff;
     font-family: inherit;
 }
@@ -513,14 +525,14 @@
     left: 10px;
     right: unset;
     border-radius: 5px;
-    background: var(--primary-color);
+    background: #f7941d;
 }
 
 .viewallproduct {
     display: block;
     float: none;
     margin-top: 0;
-    background: var(--primary-color);
+    background: #f7941d;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -613,15 +625,15 @@ span.quantity-controls button {
 }
 
 .addtocart-bar__btn input.flytocart-button {
-    border: 1px solid var(--primary-color);
+    border: 1px solid #f7941d;
     background: transparent;
-    color: var(--primary-color);
+    color: #f7941d;
     transition: color 0.25s,
         background-color 0.25s;
 }
 
 .addtocart-bar__btn input.flytocart-button:hover {
-    background: var(--primary-color);
+    background: #f7941d;
     color: #fff;
 }
 
@@ -630,11 +642,11 @@ span.quantity-controls button {
 }
 
 .multitab {
-    border-color: var(--primary-color);
+    border-color: #f7941d;
 }
 
 div#tabContainer .multitab li span.active {
-    background: var(--primary-color);
+    background: #f7941d;
     color: #fff;
     border: none;
 }
