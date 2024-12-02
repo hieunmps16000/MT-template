@@ -35,16 +35,15 @@
     width: 100%;
 }
 
-.header2 .main2>div.header2_1 {
-    justify-content: space-between;
-    gap: 10px;
-}
-
 /* #Product */
 .browse-view .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+}
+
+.browse-view .spacer {
+    padding: 0;
 }
 
 .browse-view .blocksp,
@@ -70,4 +69,13 @@
 
 .catItemImageBlock {
     padding-top: 50%;
+}
+
+/* #Contact */
+table.table-contact tr {
+    flex-direction: column;
+}
+
+table.table-contact .map {
+    height: 260px;
 }

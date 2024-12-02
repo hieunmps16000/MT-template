@@ -31,7 +31,7 @@
     border: none;
     font-family: inherit;
     font-weight: 500;
-    font-size: 110%;
+    font-size: 90%;
     transition: background-color 0.25s;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .menungang .menu li a {
-    font-size: 110%;
+    font-size: 100%;
 }
 
 .menungang .menu a,
@@ -756,3 +756,4 @@ table.table-contact .map iframe {
 }
 
 /* #Main */
+
