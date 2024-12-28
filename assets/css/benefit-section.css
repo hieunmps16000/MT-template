@@ -94,3 +94,37 @@
     grid-row: 2 / 3;
     font-size: 85%;
 }
+
+/* extra-stats */
+.stats .catItemView {
+    flex-direction: row;
+    align-items: center;
+}
+
+.stats .catItemImageBlock {
+    width: 70px;
+    height: 70px;
+}
+
+.stats .catItemThongTin {
+    padding: 0 0 0 16px;
+}
+
+.stats .catItemTitle {
+    font-size: 200%;
+}
+
+.stats .catItemTitle a {
+    font-size: 120%;
+    color: #000;
+    line-height: 1;
+}
+
+.stats .catItemExtraFields {
+    margin: 10px 0 0;
+    color: #000;
+}
+
+.stats a {
+    pointer-events: none !important;
+}
