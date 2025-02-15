@@ -582,6 +582,7 @@ input.addtocart-button:hover {
 .catItemExtraFields {
     margin-top: 10px;
     line-height: 1.6;
+    font-size: 110%;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -822,3 +823,4 @@ input.addtocart-button:hover {
     display: block;
     padding: 6px 0;
 }
+
