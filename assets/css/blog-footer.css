@@ -1,0 +1,21 @@
+.footer2 .itemRow {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+}
+
+.footer2 .catItemView {
+    border: none;
+}
+
+.footer2 .catItemImageBlock {
+    display: none;
+}
+
+.footer2 .catItemThongTin {
+    padding: 0;
+}
+
+.footer2 .catItemTitle {
+    font-weight: 400;
+    font-size: 100%;
+}

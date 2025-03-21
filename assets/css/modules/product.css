@@ -40,6 +40,7 @@
     inset: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover;
     transition: transform 0.25s;
 }
 
@@ -63,7 +64,7 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .browse-view .product-thongtin-salesPrice {
@@ -74,7 +75,8 @@
     margin-top: 10px;
 }
 
-.addtocart-bar i {
+.nutflytocart i,
+.nutaddtocart i {
     display: none;
 }
 
@@ -122,3 +124,4 @@
 .browse-view span.nutaddtocart {
     display: none;
 }
+

@@ -1,16 +1,19 @@
-/* #Menu Mobile */
+.mobile_menu {
+    width: auto;
+}
+
+.mobile_menu .tieude {
+    color: #666;
+}
+
+.mobile_menu .tieude i {
+    padding-right: 0;
+}
+
 .mobile_menu .noidung >ul>li>a:before {
     display: none;
 }
 
-.mobile_menu .noidung >ul>li>a {
-    font-size: 120%;
-}
-
-.mobile_menu .noidung > ul > li > a:before {
-    display: none;
-}
-
 .mobile_menu .noidung ul > .deeper {
     display: flex;
     flex-wrap: wrap;
@@ -34,65 +37,27 @@
     width: 100%;
 }
 
-.mobile_menu .noidung >ul>li>a {
-    font-size: 120%;
+.mobile_menu .noidung li a, 
+.mobile_menu .noidung li span {
+    color: #333;
 }
 
-.mobile_menu .noidung > ul > li > a:before {
-    display: none;
-}
-
-.mobile_menu .noidung ul > .deeper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.mobile_menu .noidung ul > .deeper > a {
-    width: 80%;
-    box-sizing: border-box;
-}
-
-.mobile_menu .noidung ul > .deeper > span {
-    width: 20%;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mobile_menu .noidung ul > .deeper > ul {
-    display: none;
-    width: 100%;
-}
-
-/* #Product */
 .browse-view .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
 }
 
-.browse-view .spacer {
-    padding: 0;
-}
-
 .browse-view .blocksp,
+.browse-view .spacer,
 .browse-view .browseProductImage,
 .catItemImageBlock,
 .catItemThongTin {
     width: 100%;
-}
-
-.product-anh {
+    margin: 0;
     padding: 0;
 }
 
-.browse-view .product-thongtin-ten {
-    margin-top: 10px;
-}
-
-.trangdmbv .itemRow,
-.trangtimkiem .itemList, 
 .itemRow {
     grid-template-columns: 1fr;
 }
@@ -101,11 +66,6 @@
     padding-top: 50%;
 }
 
-/* #Contact */
-table.table-contact tr {
-    flex-direction: column;
-}
-
-table.table-contact .map {
-    height: 260px;
+.catItemThongTin {
+    padding: 10px;
 }

@@ -128,3 +128,53 @@
 .stats a {
     pointer-events: none !important;
 }
+
+/* Cotgiua */
+.bodyhome_bd #ja-noidunggiua {
+    display: none;
+}
+
+/* Footer */
+.footer1 .menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 40px;
+}
+
+#ja-chantrang .footer1 a {
+    display: grid;
+    grid-template-columns: 48px auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.footer1 img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.footer1 .image-title {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-weight: 700;
+    font-size: 100%;
+    color: var(--blue);
+}
+
+.footer1 .menu-desc {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 100%;
+    color: #f00;
+    font-weight: 500;
+}
+
+#ja-chantrang .menu a:before {
+    display: none;
+}
