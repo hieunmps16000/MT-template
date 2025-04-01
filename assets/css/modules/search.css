@@ -7,7 +7,7 @@
     max-width: 100%;
     height: 40px;
     overflow: hidden;
-    border: 1px solid var(--orange);
+    border: 1px solid #dbdbdb;
 }
 
 .k2SearchBlockForm .inputbox,
@@ -23,6 +23,11 @@
     font-family: inherit;
 }
 
+.k2SearchBlockForm .inputbox:hover,
+.module_search .inputbox:hover {
+    background: #fff;
+}
+
 .k2SearchBlockForm .button,
 .module_search .button {
     display: flex;
@@ -35,12 +40,12 @@
     font-size: 16px;
     color: #fff;
     border: none;
-    background: var(--orange);
+    background: #000;
 }
 
-.k2SearchBlockForm .inputbox:hover,
-.module_search .inputbox:hover {
-    background: #fff;
+.k2SearchBlockForm .button:hover,
+.module_search .button:hover {
+    opacity: 0.8;
 }
 
 .module_search >* {

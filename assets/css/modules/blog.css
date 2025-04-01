@@ -24,7 +24,7 @@
 
 .catItemImageBlock {
     position: relative;
-    padding-top: 100%;
+    padding-top: 50%;
 }
 
 .catItemImageBlock img {
@@ -44,7 +44,7 @@
 }
 
 .catItemTitle {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .catItemTitle a,
@@ -72,8 +72,8 @@
     display: inline-block;
     align-self: flex-start;
     min-width: 160px;
-    height: 56px;
-    line-height: 56px;
+    height: 32px;
+    line-height: 32px;
     margin-top: 20px;
     padding: 0 16px;
     background: #000;
@@ -88,7 +88,7 @@
     height: 100%;
     opacity: 0;
     transform: translateX(-50%);
-    background: var(--orange);
+    background: #000;
     transition-property: width, opacity;
     transition-duration: 0.5s;
 }

@@ -1,0 +1,8 @@
+@keyframes jumpping {
+    0%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    40% {
+        transform: translate3d(0, var(--jump-y, 20px), var(--jump-x, 0));
+    }
+}

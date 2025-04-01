@@ -1,0 +1,156 @@
+/* Menungang */
+
+#ja-menungang {
+    position: sticky;
+    inset: 0 0 auto 0;
+    z-index: 4;
+    background: #fafafa;
+}
+
+/* Menu level 1 */
+.menungang .level0 {
+    display: flex;
+    align-items: center;
+}
+
+#ja-menungang ul a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 96%;
+    font-weight: 500;
+}
+
+#ja-menungang .level0 > li > a {
+    padding: 2px 20px;
+    font-size: 100%;
+    color: #333;
+    text-transform: uppercase;
+}
+#ja-menungang .menu>.deeper>a:after,
+#ja-menungang ul .parent > a::after {
+    margin-left: auto;
+    content: "\f107";
+    font-family: fontawesome;
+    font-size: 80%;
+    transition: rotate 0.25s;
+}
+
+#ja-menungang ul .parent:hover > a::after {
+    rotate: -90deg;
+}
+
+.menungang .level0 > li:first-child {
+    width: 248px;
+    background: #3763b3;
+}
+
+#ja-menungang .level0 > li:first-child a {
+    padding: 8px 20px;
+    text-align: left;
+    text-transform: initial;
+    font-weight: 500;
+}
+
+#ja-menungang .level0 > li:first-child > a {
+    color: #fff;
+    font-weight: 700;
+}
+
+#ja-menungang .level0 > li:first-child > a::before {
+    content: "\f0c9";
+    font-size: 15px;
+    font-family: fontawesome;
+    margin-right: 10px;
+}
+
+/* Menu level 2 */
+#ja-menungang .level0 > li > ul {
+    display: block;
+    top: calc(100% + 6px);
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 6px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, visibility;
+    transition-duration: 0.25s;
+}
+
+#ja-menungang li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+#ja-menungang .level0 > li:first-child > ul {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 0;
+    transform: none;
+}
+
+#ja-menungang .level0 > li:first-child > ul::before,
+#ja-menungang .level0 > li:first-child > ul::after {
+    display: none;
+}
+
+#ja-menungang .level0 > li:first-child > ul > li:hover > a {
+    color: #1489d0;
+}
+
+
+#ja-menungang ul > li > ul::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+#ja-menungang ul > li > ul::after {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 20px;
+    transform: translateY(-50%);
+}
+
+#ja-menungang ul ul li:hover > a {
+    color: #1489d0;
+    background: transparent; 
+} 
+
+.bodyhome_bd #ja-menungang .level0 > li:first-child > ul,
+.bodyhome_bd #ja-menungang.hide .level0 > li:hover:first-child > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bodyhome_bd #ja-menungang.hide .level0 > li:first-child > ul {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Menu level 3 */
+#ja-menungang .level0 > li:first-child ul ul {
+    display: none;
+}
+
+.menungang .menu ul ul {
+    top: 0;
+    left: 100%;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+#ja-menungang .menungang .menu ul ul::before {
+    left: 0;
+    height: 100%;
+    width: 20px;
+    border: none;
+    transform: translateX(-100%);
+}
