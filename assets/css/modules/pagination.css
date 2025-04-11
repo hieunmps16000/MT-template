@@ -1,0 +1,22 @@
+/* Pagination */
+.Pagination ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.Pagination li > * {
+    display: block;
+    padding: 8px 12px;
+    min-width: 48px;
+    text-align: center;
+    background: #c1121f;
+    color: #fff;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.Pagination li > span {
+    opacity: 0.5;
+}
