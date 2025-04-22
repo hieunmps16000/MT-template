@@ -1,0 +1,27 @@
+.header2 .main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header2_1 .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.header2_1 .menu img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    opacity: 0.5;
+}
+
+.header2_1 .menu img:hover {
+    opacity: 1;
+}
+
+.header2_1 .image-title {
+    display: none;
+}
