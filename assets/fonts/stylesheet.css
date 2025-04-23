@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Regular.woff2') format('woff2'),
+        url('Hellix-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NicolasCochinEF';
+    src: url('NicolasCochinEF-Regular.woff2') format('woff2'),
+        url('NicolasCochinEF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
