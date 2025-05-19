@@ -1,0 +1,56 @@
+/* Blog */
+@mixin blog() {
+    #itemListLeading {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .itemContainer {
+        height: 100%;
+        margin: 0;
+    }
+
+    .catItemView {
+        height: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #f1f1f1;
+    }
+
+    .catItemImageBlock,
+    .catItemThongTin {
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+
+    .catItemImageBlock {
+        border-radius: 10px;
+    }
+
+    .catItemTitle {
+        margin-top: 10px;
+        text-transform: uppercase;
+        text-align: center;
+
+        a {
+            color: $primary-color;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .catItemExtraFields {
+        color: #000;
+        font-size: 90%;
+    }
+
+    .catItemExtraFieldsValue {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+}

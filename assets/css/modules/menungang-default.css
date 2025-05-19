@@ -1,0 +1,40 @@
+/* Menungang */
+#ja-menungang {
+    background: #000;
+}
+
+#ja-menungang .level0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ja-menungang a {
+    transition: color 0.25s;
+}
+
+#ja-menungang .level0 > li > a {
+    padding: 10px 12px;
+    font-weight: 500;
+}
+
+#ja-menungang .level0 > li.active > a,
+#ja-menungang .level0 > li:hover > a,
+#ja-menungang .level0 ul li:hover > a {
+    color: #585858;
+}
+
+#ja-menungang .level0 > .deeper > a:after {
+    font-size: 80%;
+}
+
+#ja-menungang .level0 ul {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#ja-menungang .level0 ul a {
+    color: #fff;
+}
+
+#ja-menungang .level0 ul li:hover > a {
+    background: transparent;
+}

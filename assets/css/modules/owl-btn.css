@@ -1,0 +1,19 @@
+.owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+}
+
+.owl-carousel .owl-nav button:before {
+    background: #fff;
+}
+
+.owl-dots {
+    margin-top: 32px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #e91a2c;
+}

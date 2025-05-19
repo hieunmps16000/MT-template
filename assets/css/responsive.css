@@ -10,7 +10,7 @@
     padding-right: 0;
 }
 
-.mobile_menu .noidung >ul>li>a:before {
+.mobile_menu .noidung > ul > li > a:before {
     display: none;
 }
 
@@ -37,9 +37,13 @@
     width: 100%;
 }
 
-.mobile_menu .noidung li a, 
+.mobile_menu .noidung li a,
 .mobile_menu .noidung li span {
-    color: #333;
+    color: #fff;
+}
+
+.mobile_menu .noidung > ul > li > a {
+    color: #fff;
 }
 
 .browse-view .row {
@@ -68,4 +72,23 @@
 
 .catItemThongTin {
     padding: 10px;
+}
+
+/* Contact */
+table.table-contact tr {
+    grid-template-columns: 1fr;
+}
+
+.table-contact .map {
+    height: 260px;
+}
+
+.lienhe .mtcaptcha {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 15px;
+}
+
+.lienhe .mtcaptcha_1 {
+    padding: 0;
 }

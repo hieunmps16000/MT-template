@@ -1,3 +1,38 @@
+#ja-menungang .level0 {
+  display: flex;
+  align-items: center;
+}
 
+#ja-menungang {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+  background: green;
+}
+#ja-menungang .level0 {
+  justify-content: center;
+}
+#ja-menungang .level0 > li > a {
+  font-size: 100%;
+}
+#ja-menungang .level0 > li.active > a,
+#ja-menungang .level0 > li:hover > a {
+  color: yellow;
+}
+#ja-menungang .level0 > .deeper > a::after {
+  font-size: 80%;
+}
+#ja-menungang .level0 ul {
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+}
+#ja-menungang .level0 ul a {
+  font-size: 100%;
+}
+#ja-menungang .level0 ul li:hover > a {
+  color: yellow;
+  background: green;
+}
 
 /*# sourceMappingURL=main.css.map */

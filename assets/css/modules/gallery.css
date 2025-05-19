@@ -1,0 +1,19 @@
+.nivo-gallery-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.nivo-gallery-block {
+    width: 100% !important;
+}
+
+.nivo-gallery-spacer {
+    padding: 0;
+    border: none;
+}
+
+.nivo-gallery-block img {
+    height: 460px;
+    object-fit: cover;
+}

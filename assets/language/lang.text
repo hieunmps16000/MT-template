@@ -1,5 +1,10 @@
 Product
 
 COM_VIRTUEMART_CART_FLY_TO="Add to cart"
-COM_VIRTUEMART_CART_ADD_TO="Buy now"
 COM_VIRTUEMART_CART_PRICECONTACT="Contact"
+COM_VIRTUEMART_CART_ADD_TO="Buy now"
+
+
+; Module blog
+
+K2_READ_MORE="Xem thêm"
