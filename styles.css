@@ -1,23 +1,2 @@
-.Pagination ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-.Pagination ul li > * {
-    display: block;
-    min-width: 60px;
-    text-align: center;
-    padding: 4px 12px;
-    background: #243762;
-    color: #fff;
-    font-size: 90%;
-    border-radius: 4px;
-    user-select: none;
-}
-.Pagination ul li > *:hover {
-    background: #1e5bc6;
-}
-.Pagination ul li > span {
-    opacity: 0.7;
-}
+
+

@@ -10,6 +10,10 @@ table.table-contact td {
     flex-direction: column;
 }
 
+table.table-contact p {
+    margin: 0;
+}
+
 .MTTable_Content iframe,
 .custom iframe {
     max-width: 100% !important;
