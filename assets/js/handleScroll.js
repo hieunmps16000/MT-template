@@ -7,8 +7,8 @@ $("#Mod445").click(function () {
 
 $(window).on("scroll", function () {
     if ($(window).scrollTop() > 200) {
-        $("#Mod445").show();
+        $("#Mod445").stop(true, true).fadeIn(300);
     } else {
-        $("#Mod445").hide();
+        $("#Mod445").stop(true, true).fadeOut(300);
     }
 });

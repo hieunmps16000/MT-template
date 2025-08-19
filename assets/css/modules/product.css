@@ -1,6 +1,29 @@
 .browse-first {
     padding: 10px;
-    background: #f6f6f6;
+    background: linear-gradient(45deg, transparent, #fafafa);
+}
+
+.block-orderby span {
+    margin-right: 12px;
+    padding: 0;
+    font-size: 90%;
+}
+
+.selectsapxep,
+.select-limit {
+    padding: 6px 10px;
+    font-family: inherit;
+    border-color: transparent;
+    border-radius: 4px;
+    background-position: right 14px center;
+}
+
+.orderby-limit {
+    padding-left: 38px;
+}
+
+.search_tensp {
+    display: none;
 }
 
 .browse-view .row {
@@ -67,61 +90,118 @@
     margin: auto 0 0;
 }
 
+.browse-view .nutaddtocart {
+    display: none;
+}
+
+.productdetails-view .addtocart-bar {
+    display: block;
+    width: 100%;
+}
+
+.addtocart-bar__wrap {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.addtocart-bar .nutflytocart,
+.addtocart-bar .nutaddtocart {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    color: #fff;
+    background: #0201fd;
+    border: 1px solid #0201fd;
+    transition: 0.25s;
+}
+
+.addtocart-bar .nutflytocart {
+    color: #0201fd;
+    background: #fff;
+}
+
+.addtocart-bar .nutflytocart:hover {
+    color: #fff;
+    background: #0201fd;
+}
+
+.productdetails-view .addtocart-bar span {
+    display: block;
+    padding: 0;
+}
+
+span[class*="tocart"] i {
+    display: none;
+}
+
+.addtocart-bar input {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 700;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .browse-view .product-thongtin-muahang {
     margin-top: 10px;
 }
 
-.nutflytocart i,
-.nutaddtocart i {
-    display: none;
+.productdetails-view .addtocart-bar {
+    display: block;
+    width: 100%;
 }
 
-.addtocart-bar span[class*="tocart"] {
-    position: relative;
-    display: inline-block;
-    background: green;
-    border-radius: 4px;
-    overflow: hidden;
+.addtocart-bar__wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
-.addtocart-bar span[class*="tocart"]::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 100%;
-    background: #fff;
-    opacity: 0.3;
-    transition-property: left width;
+.productdetails-view .addtocart-bar__wrap > .quantity-controls {
+    display: inline-flex;
+    height: 42px;
+    border: 1px solid #ccc;
+}
+
+.addtocart-bar .quantity-input {
+    width: 60px;
+}
+
+.quantity-controls button.quantity-controls {
+    width: 40px;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity-input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.vmfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.viewallproduct {
+    padding: 8px 20px;
+    color: #4371a3;
+    border: 2px solid currentColor;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition-property: color, background-color;
     transition-duration: 0.25s;
 }
 
-.addtocart-bar span[class*="tocart"]:hover::before {
-    left: 0;
-    width: 100%;
-}
-
-.addtocart-bar input[type*="submit"] {
-    position: relative;
-    z-index: 1;
-    display: block;
-    width: 100%;
-    padding: 6px 20px;
-    border: none;
-    outline: none;
-    background: transparent;
+.viewallproduct:hover {
     color: #fff;
-    font-family: inherit;
-    font-size: 90%;
-    border-radius: 4px;
-}
-
-.browse-view span.nutaddtocart {
-    display: none;
-}
-
-/* Cotgiua */
-#ja-cotgiua {
-    width: 100%;
+    background: #4371a3;
 }

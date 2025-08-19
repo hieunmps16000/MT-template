@@ -1,0 +1,31 @@
+.footertoogle .workshome-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footertoogle .workshome-title::after {
+    content: "+";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    color: #333;
+    font-size: 200%;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.footertoogle .workshome-title.opendoor::after {
+    content: "-";
+}
+
+.footertoogle .workshome-content {
+    display: none;
+    margin-top: 20px;
+}
+
+#ja-chantrang .footertoogle .workshome-title > * {
+    margin: 0;
+}

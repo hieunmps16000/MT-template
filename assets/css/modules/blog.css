@@ -1,4 +1,5 @@
-.itemRow {
+#itemListLeading,
+.trangtimkiem .itemList {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -6,6 +7,7 @@
 
 .itemContainer {
     margin: 0;
+    height: 100%;
 }
 
 .catItemView {
@@ -16,14 +18,13 @@
 
 .catItemImageBlock,
 .catItemThongTin {
-    margin: 0;
     width: 100%;
-    float: unset;
+    margin: 0;
+    float: none;
 }
 
 .catItemImageBlock img {
-    width: 100%;
-    height: 100%;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -31,76 +32,61 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 10px 20px;
 }
 
 .catItemTitle {
-    font-size: 110%;
-}
-
-.catItemTitle a,
-.catItemExtraFieldsValue {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    margin: 10px 0;
 }
 
 .catItemTitle a {
+    display: -webkit-box;
     -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: color 0.25s;
+}
+
+.catItemTitle a:hover {
+    color: #3da246;
 }
 
 .catItemExtraFields {
     margin-top: auto;
-    font-size: 110%;
+}
+
+.catItemExtraFields li {
+    margin: 0;
 }
 
 .catItemExtraFieldsValue {
+    display: -webkit-box;
     -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .catItemReadMore {
-    position: relative;
-    display: inline-block;
-    align-self: flex-start;
-    min-width: 160px;
-    height: 32px;
-    line-height: 32px;
     margin-top: 20px;
-    padding: 0 16px;
-    background: #000;
-}
-
-.catItemReadMore::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 0;
-    height: 100%;
-    opacity: 0;
-    transform: translateX(-50%);
-    background: #000;
-    transition-property: width, opacity;
-    transition-duration: 0.5s;
-}
-
-.catItemReadMore:hover::before {
-    opacity: 1;
-    width: 100%;
 }
 
 .catItemReadMore a {
-    position: relative;
-    z-index: 1;
-    display: block;
+    display: inline-block;
+    min-width: 140px;
+    height: 40px;
     padding: 0;
+    line-height: 40px;
     text-align: center;
-    float: unset;
+    border-radius: 4px;
+    font-weight: 400;
     color: #fff;
-    background: transparent;
+    background: #3da246;
+    float: none;
 }
 
-.k2ReadMore i,
+.catItemReadMore a:hover {
+    opacity: 0.8;
+}
+
 .catItemReadMore i {
     display: none;
 }
