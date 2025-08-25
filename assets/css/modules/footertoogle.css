@@ -21,11 +21,11 @@
     content: "-";
 }
 
+#ja-chantrang .footertoogle .workshome-title > * {
+    margin: 0;
+}
+
 .footertoogle .workshome-content {
     display: none;
     margin-top: 20px;
-}
-
-#ja-chantrang .footertoogle .workshome-title > * {
-    margin: 0;
 }
